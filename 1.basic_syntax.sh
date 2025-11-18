@@ -55,10 +55,15 @@ vim file.txt
 
 #파일의 상위 10줄 출력
 head file.txt
+#v파일의 상위 n줄 출력
+head -n 20 file.txt
 #파일의 하위 10줄 출력
 tail file.txt
+#파일의 하위 n줄 출력
+tail -n 20 file.txt
 #파일의 실시간 로그 출력
 tail -f logfile.log
+
 #파일의 특정 단어 검색
 grep "search_term" file.txt
 #파일의 특정 단어를 포함하는 줄 출력
